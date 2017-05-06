@@ -21,3 +21,6 @@ def translate(request):
 
     return render(request, 'translate.html', {'original':original, 
                                               'translation':translation})
+
+def about(request):
+    return render(request, 'about.html')
